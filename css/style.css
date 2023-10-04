@@ -586,7 +586,6 @@ color: rgb(37, 36, 64);
 
 }
 
-
 .interestsimg2::before{
     content:"MUSIC";
     backdrop-filter: blur(2px);
@@ -639,7 +638,7 @@ color: rgb(37, 36, 64);
     height: 400px;
     /*margin: 0 auto;
     margin-top: 50px;*/
-    background-image: url("../");
+    background-image: url("../Fotos/gymbn.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -754,5 +753,57 @@ footer #gmail {
 footer #gmail img{
     width: 1.3rem;
     padding-right: 0.8rem;
+
+}
+
+.small-screen-message {
+    display: none;
+}
+
+@media screen and (max-width: 1140px) {
+    header {
+        display: none;
+    }
+    .inicio {
+        display: none;
+    }
+    .cuerpo {
+        display: none;
+    }
+
+    .trayectoria {
+        display: none;
+    }
+    .interests {
+        display: none;
+    }
+    
+    .activities {
+        display: none;
+    }
+    .interests2 {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+
+    .small-screen-message {
+        display: block;
+    }
+    body{
+        text-decoration: none;
+        text-align: center;
+        background-color:rgb(34, 34, 34);
+        font-weight: 300;
+        color: rgb(232, 232, 232);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    }
 
 }
