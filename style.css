@@ -985,6 +985,9 @@ footer #gmail img {
     .pythonprojects {
         display: none;
     }
+    .button {
+        display: none;
+    }
     .activities {
         display: none;
     }
